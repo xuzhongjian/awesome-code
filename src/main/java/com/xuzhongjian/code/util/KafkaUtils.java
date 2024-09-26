@@ -72,6 +72,6 @@ public class KafkaUtils {
     }
 
     public static void main(String[] args) {
-        KafkaUtils.printTopicMessage("dormantAccount_e", 60);
+        KafkaUtils.printTopicMessage("dormantAccount_e", 20);
     }
 }
