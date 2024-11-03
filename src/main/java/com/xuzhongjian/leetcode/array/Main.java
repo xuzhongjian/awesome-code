@@ -1,9 +1,11 @@
 package com.xuzhongjian.leetcode.array;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {4, 4, 0, 0};
-        HIndex main = new HIndex();
-        System.out.println(main.hIndex(nums));
+        int[] nums = {1, 2, 3, 4};
+        ProductExceptSelf main = new ProductExceptSelf();
+        System.out.println(Arrays.toString(main.productExceptSelf(nums)));
     }
 }
