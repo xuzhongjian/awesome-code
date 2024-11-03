@@ -2,8 +2,9 @@ package com.xuzhongjian.leetcode.greedy;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {2, 0, 0, 1};
-        CanJump main = new CanJump();
-        System.out.println(main.canJump(nums));
+        int[] gas = {3, 1, 1};
+        int[] costs = {1, 2, 2};
+        CanCompleteCircuit main = new CanCompleteCircuit();
+        System.out.println(main.canCompleteCircuit(gas, costs));
     }
 }
