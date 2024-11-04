@@ -1,11 +1,9 @@
 package com.xuzhongjian.leetcode.array;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 4};
-        ProductExceptSelf main = new ProductExceptSelf();
-        System.out.println(Arrays.toString(main.productExceptSelf(nums)));
+        int[] nums = {1, 2, 3, 4, 5};
+        MinSubArrayLen main = new MinSubArrayLen();
+        System.out.println(main.minSubArrayLen(11, nums));
     }
 }
