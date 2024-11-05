@@ -2,9 +2,10 @@ package com.xuzhongjian.leetcode.greedy;
 
 public class Main {
     public static void main(String[] args) {
-        int[] gas = {3, 1, 1};
-        int[] costs = {1, 2, 2};
-        CanCompleteCircuit main = new CanCompleteCircuit();
-        System.out.println(main.canCompleteCircuit(gas, costs));
+        int[] gas = {2, 1, 5, 0, 4, 6};
+        IncreasingTriplet main = new IncreasingTriplet();
+        System.out.println(main.increasingTriplet(gas));
+        int[] gxzas = {5, 4, 3, 2, 1};
+        System.out.println(main.increasingTriplet(gxzas));
     }
 }
