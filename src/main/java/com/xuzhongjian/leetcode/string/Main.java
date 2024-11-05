@@ -2,18 +2,10 @@ package com.xuzhongjian.leetcode.string;
 
 public class Main {
     public static void main(String[] args) {
-        CompressedString main = new CompressedString();
-        String b = main.compressedString("abc");
-        System.out.println(b);
-        b = main.compressedString("abccc");
-        System.out.println(b);
-        b = main.compressedString("aaa");
-        System.out.println(b);
-        b = main.compressedString("a");
-        System.out.println(b);
-        b = main.compressedString("aaabbbccc");
-        System.out.println(b);
-        b = main.compressedString("aaaaaaaaaaaaaabb");
-        System.out.println(b);
+        MinChanges main = new MinChanges();
+        System.out.println(main.minChanges("1001"));
+        System.out.println(main.minChanges("10"));
+        System.out.println(main.minChanges("0000"));
+
     }
 }
